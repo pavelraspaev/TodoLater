@@ -7,29 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9BCEE62858FAF0007AB40B /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCEE52858FAF0007AB40B /* LottieView.swift */; };
+		CE9BCEE92858FBA2007AB40B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CE9BCEE82858FBA2007AB40B /* Lottie */; };
+		CE9BCEEB2858FC30007AB40B /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEEA2858FC30007AB40B /* rocket.json */; };
+		CE9BCF012859013D007AB40B /* getOut.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEEF2859013D007AB40B /* getOut.json */; };
+		CE9BCF062859013D007AB40B /* jump.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEF42859013D007AB40B /* jump.json */; };
+		CE9BCF102859013D007AB40B /* sad.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEFE2859013D007AB40B /* sad.json */; };
+		CE9BCF1328593717007AB40B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCF1228593717007AB40B /* AddView.swift */; };
+		CE9BCF1628595507007AB40B /* TaskCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCF1428595507007AB40B /* TaskCD.xcdatamodeld */; };
+		CE9BCF18285A34D3007AB40B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCF17285A34D3007AB40B /* .gitignore */; };
+		CEAD8ACE284E489800D0B2A2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8ACD284E489800D0B2A2 /* Home.swift */; };
+		CEAD8AD3284E4B8600D0B2A2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8AD2284E4B8600D0B2A2 /* Color.swift */; };
+		CEAD8AD5284ECE3700D0B2A2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8AD4284ECE3700D0B2A2 /* Card.swift */; };
+		CEAD8AD9285117EE00D0B2A2 /* CardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8AD8285117EE00D0B2A2 /* CardTypes.swift */; };
 		CEB101942846824300232165 /* TodoLaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101932846824300232165 /* TodoLaterApp.swift */; };
 		CEB101982846824400232165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB101972846824400232165 /* Assets.xcassets */; };
 		CEB1019B2846824400232165 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB1019A2846824400232165 /* Preview Assets.xcassets */; };
-		CEB101A3284682CD00232165 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101A2284682CD00232165 /* ListView.swift */; };
 		CEB101A52846842800232165 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101A42846842800232165 /* ListRowView.swift */; };
-		CEB101A72846879400232165 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101A62846879400232165 /* AddView.swift */; };
-		CEB101AA28468C9C00232165 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101A928468C9C00232165 /* ItemModel.swift */; };
 		CEB101AD2846927200232165 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101AC2846927200232165 /* ListViewModel.swift */; };
-		CEB101AF2846CFEA00232165 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101AE2846CFEA00232165 /* NoItemsView.swift */; };
 		CEB101B12847D9F500232165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB101B02847D9F500232165 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEB101902846824300232165 /* TodoLater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoLater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9BCEE52858FAF0007AB40B /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		CE9BCEEA2858FC30007AB40B /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocket.json; sourceTree = "<group>"; };
+		CE9BCEEF2859013D007AB40B /* getOut.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getOut.json; sourceTree = "<group>"; };
+		CE9BCEF42859013D007AB40B /* jump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jump.json; sourceTree = "<group>"; };
+		CE9BCEFE2859013D007AB40B /* sad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sad.json; sourceTree = "<group>"; };
+		CE9BCF1228593717007AB40B /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		CE9BCF1528595507007AB40B /* TaskCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskCD.xcdatamodel; sourceTree = "<group>"; };
+		CE9BCF17285A34D3007AB40B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CEAD8ACD284E489800D0B2A2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CEAD8AD2284E4B8600D0B2A2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CEAD8AD4284ECE3700D0B2A2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CEAD8AD8285117EE00D0B2A2 /* CardTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTypes.swift; sourceTree = "<group>"; };
+		CEB101902846824300232165 /* Laterr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laterr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB101932846824300232165 /* TodoLaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoLaterApp.swift; sourceTree = "<group>"; };
 		CEB101972846824400232165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB1019A2846824400232165 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CEB101A2284682CD00232165 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CEB101A42846842800232165 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
-		CEB101A62846879400232165 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
-		CEB101A928468C9C00232165 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		CEB101AC2846927200232165 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
-		CEB101AE2846CFEA00232165 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		CEB101B02847D9F500232165 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,15 +55,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9BCEE92858FBA2007AB40B /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE9BCEE42858FACD007AB40B /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BCEE52858FAF0007AB40B /* LottieView.swift */,
+				CE9BCEF42859013D007AB40B /* jump.json */,
+				CE9BCEEF2859013D007AB40B /* getOut.json */,
+				CE9BCEFE2859013D007AB40B /* sad.json */,
+				CE9BCEEA2858FC30007AB40B /* rocket.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		CEAD8ACF284E48A000D0B2A2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD8ADA2851188C00D0B2A2 /* Card */,
+				CEAD8AD0284E48B300D0B2A2 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CEAD8AD0284E48B300D0B2A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD8ACD284E489800D0B2A2 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEAD8AD1284E4B7400D0B2A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD8AD2284E4B8600D0B2A2 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEAD8ADA2851188C00D0B2A2 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD8AD4284ECE3700D0B2A2 /* Card.swift */,
+				CEAD8AD8285117EE00D0B2A2 /* CardTypes.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
 		CEB101872846824300232165 = {
 			isa = PBXGroup;
 			children = (
+				CE9BCF17285A34D3007AB40B /* .gitignore */,
 				CEB101922846824300232165 /* TodoLater */,
 				CEB101912846824300232165 /* Products */,
 			);
@@ -55,7 +120,7 @@
 		CEB101912846824300232165 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEB101902846824300232165 /* TodoLater.app */,
+				CEB101902846824300232165 /* Laterr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +128,9 @@
 		CEB101922846824300232165 /* TodoLater */ = {
 			isa = PBXGroup;
 			children = (
+				CE9BCEE42858FACD007AB40B /* Lottie */,
+				CEAD8AD1284E4B7400D0B2A2 /* Extensions */,
+				CEAD8ACF284E48A000D0B2A2 /* Core */,
 				CEB101AB2846926000232165 /* ViewModels */,
 				CEB101A828468C8700232165 /* Models */,
 				CEB101A1284682C300232165 /* Views */,
@@ -85,9 +153,7 @@
 		CEB101A1284682C300232165 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CEB101A2284682CD00232165 /* ListView.swift */,
-				CEB101AE2846CFEA00232165 /* NoItemsView.swift */,
-				CEB101A62846879400232165 /* AddView.swift */,
+				CE9BCF1228593717007AB40B /* AddView.swift */,
 				CEB101A42846842800232165 /* ListRowView.swift */,
 			);
 			path = Views;
@@ -96,7 +162,7 @@
 		CEB101A828468C8700232165 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CEB101A928468C9C00232165 /* ItemModel.swift */,
+				CE9BCF1428595507007AB40B /* TaskCD.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -125,8 +191,11 @@
 			dependencies = (
 			);
 			name = TodoLater;
+			packageProductDependencies = (
+				CE9BCEE82858FBA2007AB40B /* Lottie */,
+			);
 			productName = TodoLater;
-			productReference = CEB101902846824300232165 /* TodoLater.app */;
+			productReference = CEB101902846824300232165 /* Laterr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,6 +222,9 @@
 				Base,
 			);
 			mainGroup = CEB101872846824300232165;
+			packageReferences = (
+				CE9BCEE72858FBA2007AB40B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = CEB101912846824300232165 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,8 +239,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9BCF18285A34D3007AB40B /* .gitignore in Resources */,
 				CEB101B12847D9F500232165 /* LaunchScreen.storyboard in Resources */,
 				CEB1019B2846824400232165 /* Preview Assets.xcassets in Resources */,
+				CE9BCEEB2858FC30007AB40B /* rocket.json in Resources */,
+				CE9BCF102859013D007AB40B /* sad.json in Resources */,
+				CE9BCF012859013D007AB40B /* getOut.json in Resources */,
+				CE9BCF062859013D007AB40B /* jump.json in Resources */,
 				CEB101982846824400232165 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,13 +257,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB101AA28468C9C00232165 /* ItemModel.swift in Sources */,
-				CEB101A72846879400232165 /* AddView.swift in Sources */,
+				CE9BCEE62858FAF0007AB40B /* LottieView.swift in Sources */,
+				CEAD8AD3284E4B8600D0B2A2 /* Color.swift in Sources */,
 				CEB101942846824300232165 /* TodoLaterApp.swift in Sources */,
-				CEB101A3284682CD00232165 /* ListView.swift in Sources */,
+				CE9BCF1628595507007AB40B /* TaskCD.xcdatamodeld in Sources */,
+				CEAD8ACE284E489800D0B2A2 /* Home.swift in Sources */,
+				CE9BCF1328593717007AB40B /* AddView.swift in Sources */,
+				CEAD8AD9285117EE00D0B2A2 /* CardTypes.swift in Sources */,
 				CEB101A52846842800232165 /* ListRowView.swift in Sources */,
-				CEB101AF2846CFEA00232165 /* NoItemsView.swift in Sources */,
 				CEB101AD2846927200232165 /* ListViewModel.swift in Sources */,
+				CEAD8AD5284ECE3700D0B2A2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,19 +401,21 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pavelraspaev.TodoLater;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavelraspaev.Laterr;
+				PRODUCT_NAME = Laterr;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,19 +433,21 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pavelraspaev.TodoLater;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavelraspaev.Laterr;
+				PRODUCT_NAME = Laterr;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -389,6 +473,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE9BCEE72858FBA2007AB40B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE9BCEE82858FBA2007AB40B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9BCEE72858FBA2007AB40B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CE9BCF1428595507007AB40B /* TaskCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE9BCF1528595507007AB40B /* TaskCD.xcdatamodel */,
+			);
+			currentVersion = CE9BCF1528595507007AB40B /* TaskCD.xcdatamodel */;
+			path = TaskCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEB101882846824300232165 /* Project object */;
 }
