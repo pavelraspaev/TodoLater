@@ -49,12 +49,16 @@ struct CardRowView: View {
     }
 }
 
-//struct ListRowView_Previews: PreviewProvider {
-//
-//    static var previews: some View {
-//
-//        CardRowView()
-//            .environmentObject(HomeViewModel())
-//
-//    }
-//}
+struct ListRowView_Previews: PreviewProvider {
+
+    static var previews: some View {
+        let context = HomeViewModel().container.viewContext
+        let newTask = Task.init(context: context)
+        newTask.id = UUID()
+        newTask.name = "Potatoes"
+        newTask.type = "personal"
+        newTask.isCompleted = false
+        
+        return CardRowView(task: newTask).padding(16).background(RoundedRectangle(cornerRadius: 18, style: .circular).fill(.blue.opacity(0.1))).padding(24)
+    }
+}
