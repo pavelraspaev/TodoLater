@@ -10,44 +10,45 @@
 		CE9BCEE62858FAF0007AB40B /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCEE52858FAF0007AB40B /* LottieView.swift */; };
 		CE9BCEE92858FBA2007AB40B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CE9BCEE82858FBA2007AB40B /* Lottie */; };
 		CE9BCEEB2858FC30007AB40B /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEEA2858FC30007AB40B /* rocket.json */; };
-		CE9BCF012859013D007AB40B /* getOut.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEEF2859013D007AB40B /* getOut.json */; };
 		CE9BCF062859013D007AB40B /* jump.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEF42859013D007AB40B /* jump.json */; };
 		CE9BCF102859013D007AB40B /* sad.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCEFE2859013D007AB40B /* sad.json */; };
 		CE9BCF1328593717007AB40B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCF1228593717007AB40B /* AddView.swift */; };
 		CE9BCF1628595507007AB40B /* TaskCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCF1428595507007AB40B /* TaskCD.xcdatamodeld */; };
 		CE9BCF18285A34D3007AB40B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CE9BCF17285A34D3007AB40B /* .gitignore */; };
-		CEAD8ACE284E489800D0B2A2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8ACD284E489800D0B2A2 /* Home.swift */; };
+		CEAD8ACE284E489800D0B2A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8ACD284E489800D0B2A2 /* HomeView.swift */; };
 		CEAD8AD3284E4B8600D0B2A2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8AD2284E4B8600D0B2A2 /* Color.swift */; };
-		CEAD8AD5284ECE3700D0B2A2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8AD4284ECE3700D0B2A2 /* Card.swift */; };
+		CEAD8AD5284ECE3700D0B2A2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8AD4284ECE3700D0B2A2 /* CardView.swift */; };
 		CEAD8AD9285117EE00D0B2A2 /* CardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8AD8285117EE00D0B2A2 /* CardTypes.swift */; };
 		CEB101942846824300232165 /* TodoLaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101932846824300232165 /* TodoLaterApp.swift */; };
 		CEB101982846824400232165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB101972846824400232165 /* Assets.xcassets */; };
 		CEB1019B2846824400232165 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB1019A2846824400232165 /* Preview Assets.xcassets */; };
-		CEB101A52846842800232165 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101A42846842800232165 /* ListRowView.swift */; };
-		CEB101AD2846927200232165 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101AC2846927200232165 /* ListViewModel.swift */; };
+		CEB101A52846842800232165 /* CardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101A42846842800232165 /* CardRowView.swift */; };
+		CEB101AD2846927200232165 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB101AC2846927200232165 /* HomeViewModel.swift */; };
 		CEB101B12847D9F500232165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB101B02847D9F500232165 /* LaunchScreen.storyboard */; };
+		CEDE13DC285C03DA004599E0 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = CEDE13DB285C03DA004599E0 /* BottomSheet */; };
+		CEF70B44285C8D8700169165 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF70B43285C8D8700169165 /* KeyboardHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE9BCEE52858FAF0007AB40B /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		CE9BCEEA2858FC30007AB40B /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocket.json; sourceTree = "<group>"; };
-		CE9BCEEF2859013D007AB40B /* getOut.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getOut.json; sourceTree = "<group>"; };
 		CE9BCEF42859013D007AB40B /* jump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jump.json; sourceTree = "<group>"; };
 		CE9BCEFE2859013D007AB40B /* sad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sad.json; sourceTree = "<group>"; };
 		CE9BCF1228593717007AB40B /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		CE9BCF1528595507007AB40B /* TaskCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskCD.xcdatamodel; sourceTree = "<group>"; };
 		CE9BCF17285A34D3007AB40B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		CEAD8ACD284E489800D0B2A2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CEAD8ACD284E489800D0B2A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CEAD8AD2284E4B8600D0B2A2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		CEAD8AD4284ECE3700D0B2A2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CEAD8AD4284ECE3700D0B2A2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CEAD8AD8285117EE00D0B2A2 /* CardTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTypes.swift; sourceTree = "<group>"; };
 		CEB101902846824300232165 /* Laterr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laterr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB101932846824300232165 /* TodoLaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoLaterApp.swift; sourceTree = "<group>"; };
 		CEB101972846824400232165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB1019A2846824400232165 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CEB101A42846842800232165 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
-		CEB101AC2846927200232165 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		CEB101A42846842800232165 /* CardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRowView.swift; sourceTree = "<group>"; };
+		CEB101AC2846927200232165 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CEB101B02847D9F500232165 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF70B43285C8D8700169165 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9BCEE92858FBA2007AB40B /* Lottie in Frameworks */,
+				CEDE13DC285C03DA004599E0 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,45 +69,19 @@
 			children = (
 				CE9BCEE52858FAF0007AB40B /* LottieView.swift */,
 				CE9BCEF42859013D007AB40B /* jump.json */,
-				CE9BCEEF2859013D007AB40B /* getOut.json */,
 				CE9BCEFE2859013D007AB40B /* sad.json */,
 				CE9BCEEA2858FC30007AB40B /* rocket.json */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
 		};
-		CEAD8ACF284E48A000D0B2A2 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				CEAD8ADA2851188C00D0B2A2 /* Card */,
-				CEAD8AD0284E48B300D0B2A2 /* Views */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		CEAD8AD0284E48B300D0B2A2 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CEAD8ACD284E489800D0B2A2 /* Home.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		CEAD8AD1284E4B7400D0B2A2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				CEAD8AD2284E4B8600D0B2A2 /* Color.swift */,
+				CEF70B43285C8D8700169165 /* KeyboardHelper.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		CEAD8ADA2851188C00D0B2A2 /* Card */ = {
-			isa = PBXGroup;
-			children = (
-				CEAD8AD4284ECE3700D0B2A2 /* Card.swift */,
-				CEAD8AD8285117EE00D0B2A2 /* CardTypes.swift */,
-			);
-			path = Card;
 			sourceTree = "<group>";
 		};
 		CEB101872846824300232165 = {
@@ -130,9 +106,8 @@
 			children = (
 				CE9BCEE42858FACD007AB40B /* Lottie */,
 				CEAD8AD1284E4B7400D0B2A2 /* Extensions */,
-				CEAD8ACF284E48A000D0B2A2 /* Core */,
-				CEB101AB2846926000232165 /* ViewModels */,
 				CEB101A828468C8700232165 /* Models */,
+				CEB101AB2846926000232165 /* ViewModels */,
 				CEB101A1284682C300232165 /* Views */,
 				CEB101932846824300232165 /* TodoLaterApp.swift */,
 				CEB101972846824400232165 /* Assets.xcassets */,
@@ -153,8 +128,10 @@
 		CEB101A1284682C300232165 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD8AD4284ECE3700D0B2A2 /* CardView.swift */,
+				CEAD8ACD284E489800D0B2A2 /* HomeView.swift */,
 				CE9BCF1228593717007AB40B /* AddView.swift */,
-				CEB101A42846842800232165 /* ListRowView.swift */,
+				CEB101A42846842800232165 /* CardRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +139,7 @@
 		CEB101A828468C8700232165 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD8AD8285117EE00D0B2A2 /* CardTypes.swift */,
 				CE9BCF1428595507007AB40B /* TaskCD.xcdatamodeld */,
 			);
 			path = Models;
@@ -170,7 +148,7 @@
 		CEB101AB2846926000232165 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				CEB101AC2846927200232165 /* ListViewModel.swift */,
+				CEB101AC2846927200232165 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -193,6 +171,7 @@
 			name = TodoLater;
 			packageProductDependencies = (
 				CE9BCEE82858FBA2007AB40B /* Lottie */,
+				CEDE13DB285C03DA004599E0 /* BottomSheet */,
 			);
 			productName = TodoLater;
 			productReference = CEB101902846824300232165 /* Laterr.app */;
@@ -224,6 +203,7 @@
 			mainGroup = CEB101872846824300232165;
 			packageReferences = (
 				CE9BCEE72858FBA2007AB40B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				CEDE13DA285C03DA004599E0 /* XCRemoteSwiftPackageReference "BottomSheet" */,
 			);
 			productRefGroup = CEB101912846824300232165 /* Products */;
 			projectDirPath = "";
@@ -244,7 +224,6 @@
 				CEB1019B2846824400232165 /* Preview Assets.xcassets in Resources */,
 				CE9BCEEB2858FC30007AB40B /* rocket.json in Resources */,
 				CE9BCF102859013D007AB40B /* sad.json in Resources */,
-				CE9BCF012859013D007AB40B /* getOut.json in Resources */,
 				CE9BCF062859013D007AB40B /* jump.json in Resources */,
 				CEB101982846824400232165 /* Assets.xcassets in Resources */,
 			);
@@ -261,12 +240,13 @@
 				CEAD8AD3284E4B8600D0B2A2 /* Color.swift in Sources */,
 				CEB101942846824300232165 /* TodoLaterApp.swift in Sources */,
 				CE9BCF1628595507007AB40B /* TaskCD.xcdatamodeld in Sources */,
-				CEAD8ACE284E489800D0B2A2 /* Home.swift in Sources */,
+				CEAD8ACE284E489800D0B2A2 /* HomeView.swift in Sources */,
+				CEF70B44285C8D8700169165 /* KeyboardHelper.swift in Sources */,
 				CE9BCF1328593717007AB40B /* AddView.swift in Sources */,
 				CEAD8AD9285117EE00D0B2A2 /* CardTypes.swift in Sources */,
-				CEB101A52846842800232165 /* ListRowView.swift in Sources */,
-				CEB101AD2846927200232165 /* ListViewModel.swift in Sources */,
-				CEAD8AD5284ECE3700D0B2A2 /* Card.swift in Sources */,
+				CEB101A52846842800232165 /* CardRowView.swift in Sources */,
+				CEB101AD2846927200232165 /* HomeViewModel.swift in Sources */,
+				CEAD8AD5284ECE3700D0B2A2 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +463,14 @@
 				minimumVersion = 3.3.0;
 			};
 		};
+		CEDE13DA285C03DA004599E0 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -490,6 +478,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE9BCEE72858FBA2007AB40B /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		CEDE13DB285C03DA004599E0 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDE13DA285C03DA004599E0 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -10,15 +10,13 @@ import SwiftUI
 @main
 struct TodoLaterApp: App {
     
-    @StateObject var listViewModel: ListViewModel = ListViewModel()
+    @StateObject var homeViewModel: HomeViewModel = HomeViewModel()
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ListView()
-            }
-            .navigationViewStyle(.stack)
-            .environmentObject(listViewModel)
+            HomeView()
+                .environmentObject(homeViewModel)
+                .statusBar(hidden: true)
         }
     }
 }

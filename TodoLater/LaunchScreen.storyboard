@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,31 +21,26 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZhW-3U-Hmt">
-                                <rect key="frame" x="132" y="373.5" width="150" height="149"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laterr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Diq-rm-J7n">
+                                <rect key="frame" x="172" y="433" width="70.5" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="9pD-zF-nUR"/>
-                                    <constraint firstAttribute="width" constant="150" id="udi-7P-7L9"/>
+                                    <constraint firstAttribute="height" constant="30" id="Rdr-ZE-iux"/>
+                                    <constraint firstAttribute="width" constant="70.5" id="zbq-M1-9OJ"/>
                                 </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todo Later" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Diq-rm-J7n">
-                                <rect key="frame" x="137" y="539" width="140.5" height="37"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" name="AccentColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
-                            <constraint firstItem="Diq-rm-J7n" firstAttribute="top" secondItem="ZhW-3U-Hmt" secondAttribute="bottom" constant="16" id="6c1-Lb-sP6"/>
                             <constraint firstItem="Diq-rm-J7n" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9Df-v2-rHQ"/>
-                            <constraint firstItem="ZhW-3U-Hmt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Eyq-4m-Qbh"/>
+                            <constraint firstItem="Diq-rm-J7n" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DEP-yF-aiG"/>
+                            <constraint firstItem="Diq-rm-J7n" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DHD-Gz-jEX"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
                             <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
-                            <constraint firstItem="ZhW-3U-Hmt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uXY-po-0iY"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -55,10 +49,4 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="pencil.circle" catalog="system" width="128" height="121"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-    </resources>
 </document>
