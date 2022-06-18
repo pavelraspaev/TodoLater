@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class HomeViewModel: ObservableObject {
+final class HomeViewModel: ObservableObject {
     
     @Published var tasks: [Task] = []
     @Published var tasksCount: Double = 0
@@ -61,7 +61,7 @@ class HomeViewModel: ObservableObject {
         do {
             try container.viewContext.save()
             getTasks()
-        } catch let error {
+        } catch {
             print("Error saving - \(error)")
         }
     }

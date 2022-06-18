@@ -115,12 +115,7 @@ struct HomeView: View {
     
     func tasksLeftAmount() -> Int { tasksAmount() - tasksCompletedAmount() }
     
-    func everythingIsDone() -> Bool {
-        if tasksAmount() == tasksCompletedAmount() {
-            return true
-        }
-        return false
-    }
+    func everythingIsDone() -> Bool { tasksAmount() == tasksCompletedAmount() }
 }
 
 struct Home_Previews: PreviewProvider {

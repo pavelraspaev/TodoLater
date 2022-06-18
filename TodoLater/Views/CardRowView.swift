@@ -20,7 +20,7 @@ struct CardRowView: View {
             Text(task.name ?? "")
                 .font(.subheadline)
                 .foregroundColor(task.isCompleted ? .gray.opacity(0.5) : .black)
-                .strikethrough(task.isCompleted ? true : false, color: .gray.opacity(0.5))
+                .strikethrough(task.isCompleted, color: .gray.opacity(0.5))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(.clear)
                 .onTapGesture {
