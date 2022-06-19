@@ -4,11 +4,12 @@ Built to demostrate working with SwiftUI, CoreData, Lottie, MVVM and Unit Testin
 
 <br />
 
+https://user-images.githubusercontent.com/1891452/174504018-abe63ecc-9b18-4edd-be38-f29e087527c9.mp4
+
 ## Built with
 - [SwiftUI](https://developer.apple.com/documentation/swiftui/)
 - [CoreData](https://developer.apple.com/documentation/coredata)
 - [Lottie](https://github.com/airbnb/lottie-ios)
-- [XCTest](https://developer.apple.com/documentation/xctest)
 
 <br />
 
