@@ -11,8 +11,6 @@ import CoreData
 final class HomeViewModel: ObservableObject {
     
     @Published var tasks: [Task] = []
-    @Published var tasksCount: Double = 0
-    @Published var tasksCompletedCount: Double = 0
     
     let container: NSPersistentContainer
     
