@@ -27,7 +27,19 @@
 		CEB101B12847D9F500232165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB101B02847D9F500232165 /* LaunchScreen.storyboard */; };
 		CEDE13DC285C03DA004599E0 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = CEDE13DB285C03DA004599E0 /* BottomSheet */; };
 		CEF70B44285C8D8700169165 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF70B43285C8D8700169165 /* KeyboardHelper.swift */; };
+		CEF70B4E285FB57600169165 /* Laterr_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF70B4D285FB57600169165 /* Laterr_Tests.swift */; };
+		CEF70B56285FB66200169165 /* HomeViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF70B55285FB66200169165 /* HomeViewModel_Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF70B4F285FB57600169165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB101882846824300232165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB1018F2846824300232165;
+			remoteInfo = TodoLater;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE9BCEE52858FAF0007AB40B /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
@@ -49,6 +61,9 @@
 		CEB101AC2846927200232165 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CEB101B02847D9F500232165 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF70B43285C8D8700169165 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		CEF70B4B285FB57600169165 /* Laterr_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laterr_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF70B4D285FB57600169165 /* Laterr_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laterr_Tests.swift; sourceTree = "<group>"; };
+		CEF70B55285FB66200169165 /* HomeViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,13 @@
 			files = (
 				CE9BCEE92858FBA2007AB40B /* Lottie in Frameworks */,
 				CEDE13DC285C03DA004599E0 /* BottomSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF70B48285FB57600169165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +111,7 @@
 			children = (
 				CE9BCF17285A34D3007AB40B /* .gitignore */,
 				CEB101922846824300232165 /* TodoLater */,
+				CEF70B4C285FB57600169165 /* Laterr_Tests */,
 				CEB101912846824300232165 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB101902846824300232165 /* Laterr.app */,
+				CEF70B4B285FB57600169165 /* Laterr_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +177,23 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		CEF70B4C285FB57600169165 /* Laterr_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF70B54285FB64300169165 /* ViewModels */,
+				CEF70B4D285FB57600169165 /* Laterr_Tests.swift */,
+			);
+			path = Laterr_Tests;
+			sourceTree = "<group>";
+		};
+		CEF70B54285FB64300169165 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEF70B55285FB66200169165 /* HomeViewModel_Tests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +218,24 @@
 			productReference = CEB101902846824300232165 /* Laterr.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CEF70B4A285FB57600169165 /* Laterr_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF70B51285FB57600169165 /* Build configuration list for PBXNativeTarget "Laterr_Tests" */;
+			buildPhases = (
+				CEF70B47285FB57600169165 /* Sources */,
+				CEF70B48285FB57600169165 /* Frameworks */,
+				CEF70B49285FB57600169165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF70B50285FB57600169165 /* PBXTargetDependency */,
+			);
+			name = Laterr_Tests;
+			productName = Laterr_Tests;
+			productReference = CEF70B4B285FB57600169165 /* Laterr_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +248,10 @@
 				TargetAttributes = {
 					CEB1018F2846824300232165 = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					CEF70B4A285FB57600169165 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CEB1018F2846824300232165;
 					};
 				};
 			};
@@ -210,6 +273,7 @@
 			projectRoot = "";
 			targets = (
 				CEB1018F2846824300232165 /* TodoLater */,
+				CEF70B4A285FB57600169165 /* Laterr_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +290,13 @@
 				CE9BCF102859013D007AB40B /* sad.json in Resources */,
 				CE9BCF062859013D007AB40B /* jump.json in Resources */,
 				CEB101982846824400232165 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF70B49285FB57600169165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +321,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEF70B47285FB57600169165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF70B4E285FB57600169165 /* Laterr_Tests.swift in Sources */,
+				CEF70B56285FB66200169165 /* HomeViewModel_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF70B50285FB57600169165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB1018F2846824300232165 /* TodoLater */;
+			targetProxy = CEF70B4F285FB57600169165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CEB1019C2846824400232165 /* Debug */ = {
@@ -431,6 +519,42 @@
 			};
 			name = Release;
 		};
+		CEF70B52285FB57600169165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59VH63L9GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pavelraspaev.Laterr-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laterr.app/Laterr";
+			};
+			name = Debug;
+		};
+		CEF70B53285FB57600169165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59VH63L9GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pavelraspaev.Laterr-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laterr.app/Laterr";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +572,15 @@
 			buildConfigurations = (
 				CEB1019F2846824400232165 /* Debug */,
 				CEB101A02846824400232165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF70B51285FB57600169165 /* Build configuration list for PBXNativeTarget "Laterr_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF70B52285FB57600169165 /* Debug */,
+				CEF70B53285FB57600169165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
